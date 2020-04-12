@@ -1,0 +1,8 @@
+def catAndMouse(x, y, z):
+    CA = abs(x - z)
+    CB = abs(y - z)
+
+    if CA == CB:
+        return "Mouse C" 
+    else :
+        return ("Cat A" if CB > CA else "Cat B")
