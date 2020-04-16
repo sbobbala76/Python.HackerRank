@@ -1,0 +1,16 @@
+def angryProfessor(k, a):
+
+    l = len(a)
+    # print(l)
+    c = 0
+    for i in range(l):
+        if a[i] > 0:
+            c+=1
+    print(c)
+    print(k)
+
+
+    if l-c < k:
+        return 'YES'
+    
+    return 'NO'
